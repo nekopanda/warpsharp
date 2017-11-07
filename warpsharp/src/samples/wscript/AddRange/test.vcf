@@ -1,0 +1,2 @@
+VirtualDub.subset.AddRange(0,100);
+VirtualDub.subset.AddRange(2000,50);

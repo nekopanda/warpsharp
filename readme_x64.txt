@@ -1,0 +1,3 @@
+seraphy版warpsharpパッケージを64bit化したものです。
+現状ではVirtualDub、WScript/WSInvokeプラグインが動作しません。
+Aviutl関連とゴーストプラグインは環境の問題でテストしていません。
