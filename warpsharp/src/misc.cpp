@@ -4,6 +4,7 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
+#include <algorithm>
 
 #include <activscp.h>
 #define __IActiveScriptParse_INTERFACE_DEFINED__

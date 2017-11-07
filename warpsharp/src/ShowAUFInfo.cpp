@@ -4,6 +4,7 @@
 #include <set>
 #include <iostream>
 #include <sstream>
+#include <algorithm>
 
 #include <windows.h>
 

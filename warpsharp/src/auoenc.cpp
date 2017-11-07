@@ -3,6 +3,7 @@
 #include <iostream>
 #include <sstream>
 #include <ctime>
+#include <algorithm>
 #include <process.h>
 
 #include <signal.h>

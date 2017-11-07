@@ -1,22 +1,26 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "warpsharp", "warpsharp\warpsharp.vcxproj", "{BF373AD1-8276-47FB-8A48-049779A8B61D}"
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "warpsharp", "warpsharp\warpsharp.vcproj", "{BF373AD1-8276-47FB-8A48-049779A8B61D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auoenc", "auoenc\auoenc.vcxproj", "{86AA8644-9B13-42D9-AFB5-BF9634803877}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auoenc", "auoenc\auoenc.vcproj", "{86AA8644-9B13-42D9-AFB5-BF9634803877}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowAUFInfo", "ShowAUFInfo\ShowAUFInfo.vcxproj", "{62B53D63-6C96-4F50-A763-1ACCFE836EEE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShowAUFInfo", "ShowAUFInfo\ShowAUFInfo.vcproj", "{62B53D63-6C96-4F50-A763-1ACCFE836EEE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadPluginEx", "LoadPluginEx\LoadPluginEx.vcxproj", "{7251AC6A-A6F6-4D87-B937-EC7A1E5857D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadPluginEx", "LoadPluginEx\LoadPluginEx.vcproj", "{7251AC6A-A6F6-4D87-B937-EC7A1E5857D8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsfilter", "avsfilter_dll\avsfilter_dll.vcxproj", "{7251AC6B-A6F6-4D87-B937-EC7A1E5857D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsfilter", "avsfilter_dll\avsfilter_dll.vcproj", "{7251AC6B-A6F6-4D87-B937-EC7A1E5857D8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsfilter_auf", "avsfilter_auf\avsfilter_auf.vcxproj", "{7251AC6C-A6F6-4D87-B937-EC7A1E5857D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsfilter_auf", "avsfilter_auf\avsfilter_auf.vcproj", "{7251AC6C-A6F6-4D87-B937-EC7A1E5857D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7251AC6B-A6F6-4D87-B937-EC7A1E5857D8} = {7251AC6B-A6F6-4D87-B937-EC7A1E5857D8}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsfilter_vdf", "avsfilter_vdf\avsfilter_vdf.vcxproj", "{7251AC6D-A6F6-4D87-B937-EC7A1E5857D8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsfilter_vdf", "avsfilter_vdf\avsfilter_vdf.vcproj", "{7251AC6D-A6F6-4D87-B937-EC7A1E5857D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7251AC6B-A6F6-4D87-B937-EC7A1E5857D8} = {7251AC6B-A6F6-4D87-B937-EC7A1E5857D8}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsinp", "avsinp\avsinp.vcxproj", "{0A5ED936-355B-447C-AB48-69C1669964A1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avsinp", "avsinp\avsinp.vcproj", "{0A5ED936-355B-447C-AB48-69C1669964A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

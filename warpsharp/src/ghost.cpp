@@ -1,6 +1,7 @@
 #include <vector>
 #include <cassert>
 #include <fstream>
+#include <algorithm>
 
 #include <windows.h>
 
